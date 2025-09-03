@@ -1,0 +1,66 @@
+import { StyleSheet } from 'react-native';
+
+export const settingsScreenStyles = StyleSheet.create({
+  centeredTitle: {
+    fontFamily: 'AgencyFB',
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#222B45',
+    marginTop: 20,
+    marginBottom: 16,
+    textAlign: 'center',
+    alignSelf: 'center',
+  },
+  leftAlignedText: {
+    fontSize: 16,
+    marginBottom: 10,
+    marginLeft: 20,
+    textAlign: 'left',
+  },
+  leftAlignedInput: {
+    borderWidth: 1,
+    borderColor: '#FFFFFF',
+    borderRadius: 8,
+    padding: 12,
+    width: 120,
+    fontSize: 18,
+    textAlign: 'center',
+    marginBottom: 20,
+    marginLeft: 20,
+  },
+  leftAlignedButton: {
+    backgroundColor: '#34C759',
+    padding: 14,
+    borderRadius: 8,
+    alignSelf: 'flex-start',
+    marginLeft: 20,
+    marginTop: 8,
+  },
+  titleUnderline: {
+    height: 2,
+    backgroundColor: '#FFFFFF',
+    alignSelf: 'center',
+    width: '90%',
+    marginBottom: 16,
+  },
+  backButtonContainer: {
+    position: 'absolute',
+    top: 70,
+    left: 20,
+    zIndex: 10,
+  },
+  backButton: {
+    backgroundColor: '#fff',
+    borderRadius: 20,
+    padding: 6,
+    shadowColor: '#000',
+    shadowOpacity: 0.08,
+    shadowRadius: 4,
+    elevation: 4,
+  },
+  container: {
+    flex: 1,
+    backgroundColor: '#63E2C6', 
+    paddingTop: 60,
+  },
+}); 

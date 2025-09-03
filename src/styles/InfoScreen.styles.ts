@@ -1,0 +1,137 @@
+import { StyleSheet } from 'react-native';
+
+export const infoScreenStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#63E2C6',
+  },
+  
+  title: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#333',
+    flex: 1,
+  },
+  closeButton: {
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    backgroundColor: '#e0e0e0',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  closeButtonText: {
+    fontSize: 18,
+    color: '#666',
+    fontWeight: 'bold',
+  },
+  content: {
+    padding: 20,
+  },
+  section: {
+    marginBottom: 30,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 12,
+  },
+  description: {
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#555',
+  },
+  step: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    marginBottom: 12,
+  },
+  stepNumber: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    backgroundColor: '#007AFF',
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    lineHeight: 24,
+    marginRight: 12,
+  },
+  stepText: {
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#555',
+    flex: 1,
+  },
+  feature: {
+    marginBottom: 12,
+  },
+  featureTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 4,
+  },
+  featureText: {
+    fontSize: 14,
+    color: '#666',
+    marginLeft: 20,
+  },
+  backButtonContainer: {
+    position: 'absolute',
+    top: 0,
+    left: 20,
+    zIndex: 10,
+  },
+  backButton: {
+    backgroundColor: '#fff',
+    borderRadius: 20,
+    padding: 6,
+    shadowColor: '#000',
+    shadowOpacity: 0.08,
+    shadowRadius: 4,
+    elevation: 4,
+  },
+  centeredTitle: {
+    fontFamily: 'AgencyFB',
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#222B45',
+    marginTop: 20,
+    marginBottom: 16,
+    textAlign: 'center',
+    alignSelf: 'center',
+  },
+  leftAlignedText: {
+    fontSize: 16,
+    marginBottom: 10,
+    marginLeft: 20,
+    textAlign: 'left',
+  },
+  leftAlignedInput: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 8,
+    padding: 12,
+    width: 120,
+    fontSize: 18,
+    textAlign: 'center',
+    marginBottom: 20,
+    marginLeft: 20,
+  },
+  leftAlignedButton: {
+    backgroundColor: '#63E2C6',
+    padding: 14,
+    borderRadius: 8,
+    marginLeft: 20,
+  },
+  titleUnderline: {
+    height: 2,
+    backgroundColor: '#FFFFFF',
+    alignSelf: 'center',
+    width: '90%',
+    marginBottom: 16,
+  },
+});       
